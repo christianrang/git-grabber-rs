@@ -1,0 +1,9 @@
+ssh:
+  path: "~/.ssh/id_rsa"
+
+git:
+  repos:
+    - target_dir: "~/progdev/github.com/christianrang/dotfiles"
+      ssh: "git@github.com:christianrang/dotfiles.git"
+      branches:
+        - main
